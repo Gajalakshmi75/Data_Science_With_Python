@@ -1,0 +1,11 @@
+file_ob=open("gowri.txt","r")
+text=file_ob.read(25)
+print(text)
+file_ob.close()
+#read line
+file_ob=open("gowri.txt","r")
+text=file_ob.readline()
+text1=file_ob.readlines()
+print(text)
+print(text1)
+file_ob.close()

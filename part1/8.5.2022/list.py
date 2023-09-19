@@ -1,0 +1,9 @@
+l=[];
+help(l);
+l=[1,2,3,4,5,6];
+print(l)
+print(l=l+[7,8,9]);
+print(l(0)=100);
+print(l);
+print(l(-1)=200);
+print(l);
